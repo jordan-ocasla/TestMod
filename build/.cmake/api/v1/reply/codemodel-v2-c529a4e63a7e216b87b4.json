@@ -1,0 +1,612 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "libraries/RED4ext",
+					"jsonFile" : "directory-libraries.RED4ext-Debug-d882b6efe27b90dce107.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libraries/RED4ext",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "libraries/RedLib",
+					"jsonFile" : "directory-libraries.RedLib-Debug-df01cda0b3442b91b3b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libraries/RedLib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TestMod",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "RED4ext.SDK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "RedLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-f75c74c5ce1fa5d71b17.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@b5f4b149bf1bcae9dff1",
+					"jsonFile" : "target-ALL_BUILD-Debug-7742434f0bfdfc411e52.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@38c9ed224a431aa1f5ba",
+					"jsonFile" : "target-ALL_BUILD-Debug-0a60d0222fc560b6009e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "RED4ext.SDK::@b5f4b149bf1bcae9dff1",
+					"jsonFile" : "target-RED4ext.SDK-Debug-8c538ef8e8bdc78a14fa.json",
+					"name" : "RED4ext.SDK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestMod::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestMod-Debug-69ffb601ec18356e4952.json",
+					"name" : "TestMod",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-0bd68e74f156c8224727.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "libraries/RED4ext",
+					"jsonFile" : "directory-libraries.RED4ext-Release-d882b6efe27b90dce107.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libraries/RED4ext",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "libraries/RedLib",
+					"jsonFile" : "directory-libraries.RedLib-Release-df01cda0b3442b91b3b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libraries/RedLib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TestMod",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "RED4ext.SDK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "RedLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-f75c74c5ce1fa5d71b17.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@b5f4b149bf1bcae9dff1",
+					"jsonFile" : "target-ALL_BUILD-Release-7742434f0bfdfc411e52.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@38c9ed224a431aa1f5ba",
+					"jsonFile" : "target-ALL_BUILD-Release-0a60d0222fc560b6009e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "RED4ext.SDK::@b5f4b149bf1bcae9dff1",
+					"jsonFile" : "target-RED4ext.SDK-Release-6542b751d3fbe4b49d36.json",
+					"name" : "RED4ext.SDK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestMod::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestMod-Release-3545e5e509d6e13485c2.json",
+					"name" : "TestMod",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-0bd68e74f156c8224727.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "libraries/RED4ext",
+					"jsonFile" : "directory-libraries.RED4ext-MinSizeRel-d882b6efe27b90dce107.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libraries/RED4ext",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "libraries/RedLib",
+					"jsonFile" : "directory-libraries.RedLib-MinSizeRel-df01cda0b3442b91b3b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libraries/RedLib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TestMod",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "RED4ext.SDK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "RedLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f75c74c5ce1fa5d71b17.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@b5f4b149bf1bcae9dff1",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7742434f0bfdfc411e52.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@38c9ed224a431aa1f5ba",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-0a60d0222fc560b6009e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "RED4ext.SDK::@b5f4b149bf1bcae9dff1",
+					"jsonFile" : "target-RED4ext.SDK-MinSizeRel-91990e2570f364cda4aa.json",
+					"name" : "RED4ext.SDK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestMod::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestMod-MinSizeRel-fde994f6ab4d07d629a2.json",
+					"name" : "TestMod",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-0bd68e74f156c8224727.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "libraries/RED4ext",
+					"jsonFile" : "directory-libraries.RED4ext-RelWithDebInfo-d882b6efe27b90dce107.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libraries/RED4ext",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "libraries/RedLib",
+					"jsonFile" : "directory-libraries.RedLib-RelWithDebInfo-df01cda0b3442b91b3b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libraries/RedLib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TestMod",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "RED4ext.SDK",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "RedLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f75c74c5ce1fa5d71b17.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@b5f4b149bf1bcae9dff1",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7742434f0bfdfc411e52.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@38c9ed224a431aa1f5ba",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-0a60d0222fc560b6009e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "RED4ext.SDK::@b5f4b149bf1bcae9dff1",
+					"jsonFile" : "target-RED4ext.SDK-RelWithDebInfo-75ce09d14eaddaf8701a.json",
+					"name" : "RED4ext.SDK",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestMod::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestMod-RelWithDebInfo-e6097e33474782bb667c.json",
+					"name" : "TestMod",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-0bd68e74f156c8224727.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Jordan/Modding/Cyberpunk Modding/build",
+		"source" : "D:/Jordan/Modding/Cyberpunk Modding"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -201,6 +201,15 @@ RED4ext.SDK_IS_TOP_LEVEL:STATIC=OFF
 RED4ext.SDK_SOURCE_DIR:STATIC=D:/Jordan/Modding/Cyberpunk Modding/libraries/RED4ext
 
 //Value Computed by CMake
+RedLib_BINARY_DIR:STATIC=D:/Jordan/Modding/Cyberpunk Modding/build/libraries/RedLib
+
+//Value Computed by CMake
+RedLib_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+RedLib_SOURCE_DIR:STATIC=D:/Jordan/Modding/Cyberpunk Modding/libraries/RedLib
+
+//Value Computed by CMake
 TestMod_BINARY_DIR:STATIC=D:/Jordan/Modding/Cyberpunk Modding/build
 
 //Value Computed by CMake
@@ -284,7 +293,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

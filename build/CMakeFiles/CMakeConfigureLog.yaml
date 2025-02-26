@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.12.12+1cce77968 for .NET Framework
-      Build started 2/26/2025 11:07:55 AM.
+      Build started 2/26/2025 11:17:19 AM.
       
       Project "D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\4.0.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.82
+      Time Elapsed 00:00:00.54
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Jordan/Modding/Cyberpunk Modding/build/CMakeFiles/CMakeScratch/TryCompile-toggnn"
-      binary: "D:/Jordan/Modding/Cyberpunk Modding/build/CMakeFiles/CMakeScratch/TryCompile-toggnn"
+      source: "D:/Jordan/Modding/Cyberpunk Modding/build/CMakeFiles/CMakeScratch/TryCompile-1ijt9a"
+      binary: "D:/Jordan/Modding/Cyberpunk Modding/build/CMakeFiles/CMakeScratch/TryCompile-1ijt9a"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
@@ -83,40 +83,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Jordan/Modding/Cyberpunk Modding/build/CMakeFiles/CMakeScratch/TryCompile-toggnn'
+        Change Dir: 'D:/Jordan/Modding/Cyberpunk Modding/build/CMakeFiles/CMakeScratch/TryCompile-1ijt9a'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f1159.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_81fbf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 2/26/2025 11:07:56 AM.
+        Build started 2/26/2025 11:17:20 AM.
         
-        Project "D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toggnn\\cmTC_f1159.vcxproj" on node 1 (default targets).
+        Project "D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ijt9a\\cmTC_81fbf.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_f1159.dir\\Debug\\".
+          Creating directory "cmTC_81fbf.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toggnn\\Debug\\".
-          Creating directory "cmTC_f1159.dir\\Debug\\cmTC_f1159.tlog\\".
+          Creating directory "D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ijt9a\\Debug\\".
+          Creating directory "cmTC_81fbf.dir\\Debug\\cmTC_81fbf.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f1159.dir\\Debug\\cmTC_f1159.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f1159.dir\\Debug\\cmTC_f1159.tlog\\unsuccessfulbuild".
+          Creating "cmTC_81fbf.dir\\Debug\\cmTC_81fbf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_81fbf.dir\\Debug\\cmTC_81fbf.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1159.dir\\Debug\\\\" /Fd"cmTC_f1159.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81fbf.dir\\Debug\\\\" /Fd"cmTC_81fbf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33143 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1159.dir\\Debug\\\\" /Fd"cmTC_f1159.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81fbf.dir\\Debug\\\\" /Fd"cmTC_81fbf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toggnn\\Debug\\cmTC_f1159.exe" /INCREMENTAL /ILK:"cmTC_f1159.dir\\Debug\\cmTC_f1159.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Jordan/Modding/Cyberpunk Modding/build/CMakeFiles/CMakeScratch/TryCompile-toggnn/Debug/cmTC_f1159.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Jordan/Modding/Cyberpunk Modding/build/CMakeFiles/CMakeScratch/TryCompile-toggnn/Debug/cmTC_f1159.lib" /MACHINE:X64  /machine:x64 cmTC_f1159.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_f1159.vcxproj -> D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toggnn\\Debug\\cmTC_f1159.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ijt9a\\Debug\\cmTC_81fbf.exe" /INCREMENTAL /ILK:"cmTC_81fbf.dir\\Debug\\cmTC_81fbf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Jordan/Modding/Cyberpunk Modding/build/CMakeFiles/CMakeScratch/TryCompile-1ijt9a/Debug/cmTC_81fbf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Jordan/Modding/Cyberpunk Modding/build/CMakeFiles/CMakeScratch/TryCompile-1ijt9a/Debug/cmTC_81fbf.lib" /MACHINE:X64  /machine:x64 cmTC_81fbf.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_81fbf.vcxproj -> D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ijt9a\\Debug\\cmTC_81fbf.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_f1159.dir\\Debug\\cmTC_f1159.tlog\\unsuccessfulbuild".
-          Touching "cmTC_f1159.dir\\Debug\\cmTC_f1159.tlog\\cmTC_f1159.lastbuildstate".
-        Done Building Project "D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toggnn\\cmTC_f1159.vcxproj" (default targets).
+          Deleting file "cmTC_81fbf.dir\\Debug\\cmTC_81fbf.tlog\\unsuccessfulbuild".
+          Touching "cmTC_81fbf.dir\\Debug\\cmTC_81fbf.tlog\\cmTC_81fbf.lastbuildstate".
+        Done Building Project "D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ijt9a\\cmTC_81fbf.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.57
+        Time Elapsed 00:00:00.55
         
       exitCode: 0
   -
