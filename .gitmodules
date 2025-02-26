@@ -1,3 +1,6 @@
 [submodule "RED4ext"]
 	path = libraries/RED4ext
 	url = https://github.com/wopss/RED4ext.SDK.git
+[submodule "libraries/RedLib"]
+	path = libraries/RedLib
+	url = https://github.com/psiberx/cp2077-red-lib.git
