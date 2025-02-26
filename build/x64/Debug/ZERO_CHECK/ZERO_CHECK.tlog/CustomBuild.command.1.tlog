@@ -1,0 +1,10 @@
+^D:\JORDAN\MODDING\CYBERPUNK MODDING\BUILD\CMAKEFILES\C8CD8950B7C289D54AAE100A20424AB0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Jordan/Modding/Cyberpunk Modding" "-BD:/Jordan/Modding/Cyberpunk Modding/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Jordan/Modding/Cyberpunk Modding/build/TestMod.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "TestMod.dir\\Debug\\main.obj",
+            "outputs": [
+                "D:\\Jordan\\Modding\\Cyberpunk Modding\\build\\TestMod.dir\\Debug\\vc143.pdb",
+                "TestMod.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

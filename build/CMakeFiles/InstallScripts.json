@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Jordan/Modding/Cyberpunk Modding/build/cmake_install.cmake",
+		"D:/Jordan/Modding/Cyberpunk Modding/build/libraries/RED4ext/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

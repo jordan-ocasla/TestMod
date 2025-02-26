@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Jordan\Modding\Cyberpunk Modding\build\CMakeFiles\c8cd8950b7c289d54aae100a20424ab0\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0260B969-0642-3AD3-BAD2-2EEBD25B448D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
